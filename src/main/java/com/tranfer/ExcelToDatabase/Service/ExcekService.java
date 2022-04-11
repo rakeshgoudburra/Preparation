@@ -37,5 +37,11 @@ public class ExcekService {
 		return repository.findAll();
 		
 	}
+
+
+	public Excel save(Excel excel) {
+		
+		return repository.save(excel);
+	}
 	
 }
